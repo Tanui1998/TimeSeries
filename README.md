@@ -4,14 +4,18 @@ All you need to know about time series
 - Contains ARIMA and SARIMA Model classes
 - Plots the time series plots and ACF and PACF, as well as decomposition plots.
 
-  ARIMA.time_all_plots()
-  SARIMA.time_all_plots()
+   ARIMA.time_all_plots()
+  
+   SARIMA.time_all_plots()
 - Checks for stationarity of each variable Using both ADF and KPSS  tests
 
-  ARIMA.augmented_dickey_fuller_test() 
-  SARIMA.augmented_dickey_fuller_test() 
-  ARIMA.KPSS_test()
-  SARIMA.KPSS_test()
+   ARIMA.augmented_dickey_fuller_test() 
+   
+   SARIMA.augmented_dickey_fuller_test() 
+   
+   ARIMA.KPSS_test()
+   
+   SARIMA.KPSS_test()
   
 - Automates the selection of the best fitting ARIMA and SARIMA models.
 - SARIMA model: (P,D,Q)*(p,d,q,s); with (P,D,Q) showing the non-seasonal part while (p,d,q,s) shows the seasonal part.
